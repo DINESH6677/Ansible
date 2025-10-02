@@ -1,0 +1,21 @@
+<!-- object -->
+<student> 
+    <name>Ramesh</name>
+    <studying>10</studying>
+    <dob>11-12-2001</dob>
+    <!-- list of objects -->
+    <addresses>
+    <!-- #object -->
+        <address> 
+            <House_status>status=perm</House_status>
+            <House_Number>600 Nott Street</House_Number>
+            <location>Connecticut</location>
+        </address>
+    <!-- #object -->
+        <address> 
+            <House_status>status=Current</House_status>
+            <House_Number>600 Nott Street</House_Number>
+            <location>Connecticut</location>
+        </address>
+    </addresses>
+</student>

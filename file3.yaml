@@ -1,0 +1,20 @@
+  # - indicates start of list
+- name: "Dinesh"
+  dob: "01-01-01"
+  age: 21
+  address:
+    # Object
+  - door_no: 600
+    street: "Nott street"
+    city: "Hartford"
+    type: "Current"
+
+  - door_no: 600
+    street: "Nott street"
+    city: "Hartford"
+    type: "Perm"
+
+  Skills:
+  - java
+  - devops
+  - cloud

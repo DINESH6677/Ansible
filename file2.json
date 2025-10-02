@@ -1,0 +1,20 @@
+{
+    "name": "Dinesh",
+    "Pursuing": "Masters",
+    "Dob":"12-13-2001",
+     "Addresses":[
+        {   "Type": "Current",
+            "Door no":"50",
+            "Street":"Nott street",
+            "City":"Hartord"
+        },
+
+        {   "Type": "Perm",
+            "Door no":"50",
+            "Street":"Nott street",
+            "City":"Hartord"
+        }
+    ],
+    "Skills": [ "Java","python","Cloud" ]
+
+}
