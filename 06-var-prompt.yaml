@@ -12,4 +12,5 @@
   tasks:
   - name: Execution of variables from Playbook
     ansible.builtin.debug:
-      msg: "Your username is {{ Username }} , Please enter your Password? {{Password}}"
+      msg: "Your username is {{ Username }}"
+      msg: " Please enter your Password? {{Password}}"
