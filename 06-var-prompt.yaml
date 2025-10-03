@@ -5,7 +5,11 @@
   - name: Username
     prompt: what is your username?
     private: false
+
+  - name: Password
+    prompt: what is your Password?
+    private: True
   tasks:
   - name: Execution of variables from Playbook
     ansible.builtin.debug:
-      msg: "Your username is {{ Username }}"
+      msg: "Your username is {{ Username }} , Please enter your {{Password}}"
