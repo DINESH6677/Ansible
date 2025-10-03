@@ -1,0 +1,11 @@
+- name: "Playbook variable"
+  hosts: local
+  connection: local
+  vars_prompt:
+  - name: Username
+    prompt: what is your username?
+    private: false
+  tasks:
+  - name: Execution of variables from Playbook
+    ansible.builtin.debug:
+      msg: "Your username is {{ Username }}"
