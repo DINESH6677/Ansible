@@ -7,7 +7,8 @@
     Duration: 10Hrs
   tasks:
   - name: Execution of variables from Playbook
-    Course: Devops with AWS
-    Trainer: Dinesh Reddy Gadila
+    vars:
+      Course: Devops with AWS
+      Trainer: Dinesh Reddy Gadila
     ansible.builtin.debug:
       msg: "couse name is {{Course}}, Trainer is {{Trainer}}, Duration of Course is {{Duration}}"
