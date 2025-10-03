@@ -1,0 +1,9 @@
+- name: "Playbook variable"
+  hosts: local
+  connection: local
+  vars_file:
+  - variables.yaml
+  tasks:
+  - name: Execution of variables from Playbook
+    ansible.builtin.debug:
+      msg: "couse name is {{Course}}, Trainer is {{Trainer}}, Duration of Course is {{Duration}}"
