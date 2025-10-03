@@ -1,5 +1,5 @@
 - name: "Playbook variable"
-  host: Frontend
+  hosts: Frontend
   vars:
     Course: Devops
     Trainer: Dinesh
