@@ -1,0 +1,13 @@
+- name: "Playbook variable"
+  host: Frontend
+  vars:
+    Course: Devops
+    Trainer: Dinesh
+    Duration: 10Hrs
+  tasks:
+  - name: Execution of variables from Playbook
+    ansible.builtin.debug:
+      msg: "couse name is {{Course}}, Trainer is {{Trainer}}, Duration of Course is {{Duration}}"
+
+
+
