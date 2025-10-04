@@ -5,10 +5,10 @@
     Name: From Vars playlevel
   # vars_files:
   # - variables.yaml
-  vars_prompt:
-  - name: Name
-    prompt: Please enter you Name?
-    private: False
+  # vars_prompt:
+  # - name: Name
+  #   prompt: Please enter you Name?
+  #   private: False
   tasks:
   - name: Execution of variables from Playbook
     # vars:
