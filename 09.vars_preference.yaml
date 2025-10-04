@@ -12,6 +12,6 @@
   tasks:
   - name: Execution of variables from Playbook
     vars:
-      Name: From Vars playlevel
+      Name: From Vars tasks
     ansible.builtin.debug:
       msg: "Name is {{ Name }}"
