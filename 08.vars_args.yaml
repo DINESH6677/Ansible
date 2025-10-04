@@ -5,3 +5,7 @@
   - name: Execution of variables from Playbook
     ansible.builtin.debug:
       msg: "couse name is {{Course}}, Trainer is {{Trainer}}, Duration of Course is {{Duration}}"
+
+
+
+      #ansible-playbook -i Inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 -e "Course=Devops" -e "Duration=10hrs" -e "Trainer=Dinesh" 08.vars_args.yaml

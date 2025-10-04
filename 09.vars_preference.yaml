@@ -1,0 +1,17 @@
+- name: "Playbook variable"
+  hosts: local
+  connection: local
+  vars:
+    Name: From Vars playlevel
+  vars_files:
+  - variables.yaml
+  vars_prompt:
+  - name: Name
+    prompt: Please enter you Name?
+    private: False
+  tasks:
+  - name: Execution of variables from Playbook
+    vars:
+      Name: From Vars playlevel
+    ansible.builtin.debug:
+      msg: "Name is {{ Name }}"
