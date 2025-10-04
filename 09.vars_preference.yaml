@@ -1,8 +1,8 @@
 - name: "Playbook variable"
   hosts: local
   connection: local
-  vars:
-    Name: From Vars playlevel
+  # vars:
+  #   Name: From Vars playlevel
   # vars_files:
   # - variables.yaml
   # vars_prompt:
