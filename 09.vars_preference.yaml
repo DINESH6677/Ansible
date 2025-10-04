@@ -3,8 +3,8 @@
   connection: local
   vars:
     Name: From Vars playlevel
-  vars_files:
-  - variables.yaml
+  # vars_files:
+  # - variables.yaml
   vars_prompt:
   - name: Name
     prompt: Please enter you Name?
